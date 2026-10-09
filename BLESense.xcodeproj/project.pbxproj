@@ -40,6 +40,8 @@
 		11010031 /* HeroGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010031 /* HeroGameView.swift */; };
 		11010032 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010032 /* SettingsView.swift */; };
 		11010033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22010033 /* Assets.xcassets */; };
+		11010034 /* AWSDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010035 /* AWSDetailView.swift */; };
+		11010035 /* RawDataViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010036 /* RawDataViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,20 +64,20 @@
 		22010016 /* BLEPeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPeripheralManager.swift; sourceTree = "<group>"; };
 		22010017 /* RobotConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotConnectionManager.swift; sourceTree = "<group>"; };
 		22010018 /* CloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSyncService.swift; sourceTree = "<group>"; };
-		22010019 /* HeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBar.swift; sourceTree = "<group>"; };
-		22010020 /* MetricCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCards.swift; sourceTree = "<group>"; };
-		22010021 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		22010019 /* HeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/HeaderBar.swift; sourceTree = "<group>"; };
+		22010020 /* MetricCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/MetricCards.swift; sourceTree = "<group>"; };
+		22010021 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/CustomTabBar.swift; sourceTree = "<group>"; };
 		22010022 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
-		22010023 /* SensorHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorHubView.swift; sourceTree = "<group>"; };
-		22010024 /* SensorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDetailView.swift; sourceTree = "<group>"; };
-		22010025 /* StepCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterView.swift; sourceTree = "<group>"; };
-		22010026 /* DataLoggerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerListView.swift; sourceTree = "<group>"; };
-		22010027 /* DataLoggerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerControlView.swift; sourceTree = "<group>"; };
-		22010028 /* AWSScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSScannerView.swift; sourceTree = "<group>"; };
-		22010029 /* RobotControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotControlView.swift; sourceTree = "<group>"; };
-		22010030 /* RawScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScannerView.swift; sourceTree = "<group>"; };
-		22010031 /* HeroGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGameView.swift; sourceTree = "<group>"; };
-		22010032 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		22010023 /* SensorHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorHub/SensorHubView.swift; sourceTree = "<group>"; };
+		22010024 /* SensorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorHub/SensorDetailView.swift; sourceTree = "<group>"; };
+		22010025 /* StepCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter/StepCounterView.swift; sourceTree = "<group>"; };
+		22010026 /* DataLoggerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogger/DataLoggerListView.swift; sourceTree = "<group>"; };
+		22010027 /* DataLoggerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogger/DataLoggerControlView.swift; sourceTree = "<group>"; };
+		22010028 /* AWSScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSStation/AWSScannerView.swift; sourceTree = "<group>"; };
+		22010029 /* RobotControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotControl/RobotControlView.swift; sourceTree = "<group>"; };
+		22010030 /* RawScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScanner/RawScannerView.swift; sourceTree = "<group>"; };
+		22010031 /* HeroGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGame/HeroGameView.swift; sourceTree = "<group>"; };
+		22010032 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings/SettingsView.swift; sourceTree = "<group>"; };
 		22010033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22010034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +218,8 @@
 				22010030 /* RawScannerView.swift */,
 				22010031 /* HeroGameView.swift */,
 				22010032 /* SettingsView.swift */,
+				22010035 /* AWSDetailView.swift */,
+				22010036 /* RawDataViewer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +325,8 @@
 				11010030 /* RawScannerView.swift in Sources */,
 				11010031 /* HeroGameView.swift in Sources */,
 				11010032 /* SettingsView.swift in Sources */,
+				11010034 /* AWSDetailView.swift in Sources */,
+				11010035 /* RawDataViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
