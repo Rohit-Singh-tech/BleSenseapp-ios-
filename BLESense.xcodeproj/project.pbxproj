@@ -80,6 +80,8 @@
 		22010032 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings/SettingsView.swift; sourceTree = "<group>"; };
 		22010033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22010034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22010035 /* AWSDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSStation/AWSDetailView.swift; sourceTree = "<group>"; };
+		22010036 /* RawDataViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScanner/RawDataViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
