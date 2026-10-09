@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11010001 /* BLESenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010001 /* BLESenseApp.swift */; };
+		11010002 /* BleSenseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010002 /* BleSenseTheme.swift */; };
+		11010003 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010003 /* DataExtensions.swift */; };
+		11010004 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010004 /* CSVExporter.swift */; };
+		11010005 /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010005 /* SensorData.swift */; };
+		11010006 /* BluetoothDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010006 /* BluetoothDeviceModel.swift */; };
+		11010007 /* DataLoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010007 /* DataLoggerConfig.swift */; };
+		11010008 /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010008 /* StepCounter.swift */; };
+		11010009 /* BleDeviceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010009 /* BleDeviceHandler.swift */; };
+		11010010 /* SensorHubHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010010 /* SensorHubHandler.swift */; };
+		11010011 /* AwsSensorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010011 /* AwsSensorHandler.swift */; };
+		11010012 /* DataLoggerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010012 /* DataLoggerHandler.swift */; };
+		11010013 /* StepCounterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010013 /* StepCounterHandler.swift */; };
+		11010014 /* RawScanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010014 /* RawScanHandler.swift */; };
+		11010015 /* BLECentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010015 /* BLECentralManager.swift */; };
+		11010016 /* BLEPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010016 /* BLEPeripheralManager.swift */; };
+		11010017 /* RobotConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010017 /* RobotConnectionManager.swift */; };
+		11010018 /* CloudSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010018 /* CloudSyncService.swift */; };
+		11010019 /* HeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010019 /* HeaderBar.swift */; };
+		11010020 /* MetricCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010020 /* MetricCards.swift */; };
+		11010021 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010021 /* CustomTabBar.swift */; };
+		11010022 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010022 /* MainDashboardView.swift */; };
+		11010023 /* SensorHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010023 /* SensorHubView.swift */; };
+		11010024 /* SensorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010024 /* SensorDetailView.swift */; };
+		11010025 /* StepCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010025 /* StepCounterView.swift */; };
+		11010026 /* DataLoggerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010026 /* DataLoggerListView.swift */; };
+		11010027 /* DataLoggerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010027 /* DataLoggerControlView.swift */; };
+		11010028 /* AWSScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010028 /* AWSScannerView.swift */; };
+		11010029 /* RobotControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010029 /* RobotControlView.swift */; };
+		11010030 /* RawScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010030 /* RawScannerView.swift */; };
+		11010031 /* HeroGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010031 /* HeroGameView.swift */; };
+		11010032 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22010032 /* SettingsView.swift */; };
+		11010033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22010033 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00010001 /* BLESense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22010001 /* BLESenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESenseApp.swift; sourceTree = "<group>"; };
+		22010002 /* BleSenseTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleSenseTheme.swift; sourceTree = "<group>"; };
+		22010003 /* DataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		22010004 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		22010005 /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		22010006 /* BluetoothDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceModel.swift; sourceTree = "<group>"; };
+		22010007 /* DataLoggerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerConfig.swift; sourceTree = "<group>"; };
+		22010008 /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+		22010009 /* BleDeviceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleDeviceHandler.swift; sourceTree = "<group>"; };
+		22010010 /* SensorHubHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorHubHandler.swift; sourceTree = "<group>"; };
+		22010011 /* AwsSensorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsSensorHandler.swift; sourceTree = "<group>"; };
+		22010012 /* DataLoggerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerHandler.swift; sourceTree = "<group>"; };
+		22010013 /* StepCounterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterHandler.swift; sourceTree = "<group>"; };
+		22010014 /* RawScanHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScanHandler.swift; sourceTree = "<group>"; };
+		22010015 /* BLECentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECentralManager.swift; sourceTree = "<group>"; };
+		22010016 /* BLEPeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPeripheralManager.swift; sourceTree = "<group>"; };
+		22010017 /* RobotConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotConnectionManager.swift; sourceTree = "<group>"; };
+		22010018 /* CloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSyncService.swift; sourceTree = "<group>"; };
+		22010019 /* HeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBar.swift; sourceTree = "<group>"; };
+		22010020 /* MetricCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCards.swift; sourceTree = "<group>"; };
+		22010021 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		22010022 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		22010023 /* SensorHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorHubView.swift; sourceTree = "<group>"; };
+		22010024 /* SensorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDetailView.swift; sourceTree = "<group>"; };
+		22010025 /* StepCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterView.swift; sourceTree = "<group>"; };
+		22010026 /* DataLoggerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerListView.swift; sourceTree = "<group>"; };
+		22010027 /* DataLoggerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoggerControlView.swift; sourceTree = "<group>"; };
+		22010028 /* AWSScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSScannerView.swift; sourceTree = "<group>"; };
+		22010029 /* RobotControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotControlView.swift; sourceTree = "<group>"; };
+		22010030 /* RawScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScannerView.swift; sourceTree = "<group>"; };
+		22010031 /* HeroGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGameView.swift; sourceTree = "<group>"; };
+		22010032 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		22010033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22010034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33010001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44010001 = {
+			isa = PBXGroup;
+			children = (
+				44010002 /* BLESense */,
+				00010002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00010002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00010001 /* BLESense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44010002 /* BLESense */ = {
+			isa = PBXGroup;
+			children = (
+				44010003 /* App */,
+				44010004 /* Core */,
+				44010005 /* Views */,
+				22010033 /* Assets.xcassets */,
+			);
+			path = BLESense;
+			sourceTree = "<group>";
+		};
+		44010003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22010001 /* BLESenseApp.swift */,
+				22010034 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		44010004 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				44010006 /* Bluetooth */,
+				44010007 /* Handlers */,
+				44010008 /* Models */,
+				44010009 /* Network */,
+				44010010 /* Theme */,
+				44010011 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		44010006 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				22010015 /* BLECentralManager.swift */,
+				22010016 /* BLEPeripheralManager.swift */,
+				22010017 /* RobotConnectionManager.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		44010007 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				22010009 /* BleDeviceHandler.swift */,
+				22010010 /* SensorHubHandler.swift */,
+				22010011 /* AwsSensorHandler.swift */,
+				22010012 /* DataLoggerHandler.swift */,
+				22010013 /* StepCounterHandler.swift */,
+				22010014 /* RawScanHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		44010008 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22010005 /* SensorData.swift */,
+				22010006 /* BluetoothDeviceModel.swift */,
+				22010007 /* DataLoggerConfig.swift */,
+				22010008 /* StepCounter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44010009 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				22010018 /* CloudSyncService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		44010010 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				22010002 /* BleSenseTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		44010011 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				22010003 /* DataExtensions.swift */,
+				22010004 /* CSVExporter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		44010005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22010019 /* HeaderBar.swift */,
+				22010020 /* MetricCards.swift */,
+				22010021 /* CustomTabBar.swift */,
+				22010022 /* MainDashboardView.swift */,
+				22010023 /* SensorHubView.swift */,
+				22010024 /* SensorDetailView.swift */,
+				22010025 /* StepCounterView.swift */,
+				22010026 /* DataLoggerListView.swift */,
+				22010027 /* DataLoggerControlView.swift */,
+				22010028 /* AWSScannerView.swift */,
+				22010029 /* RobotControlView.swift */,
+				22010030 /* RawScannerView.swift */,
+				22010031 /* HeroGameView.swift */,
+				22010032 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55010001 /* BLESense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66010001 /* Build configuration list for PBXNativeTarget "BLESense" */;
+			buildPhases = (
+				77010001 /* Sources */,
+				33010001 /* Frameworks */,
+				88010001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLESense;
+			productName = BLESense;
+			productReference = 00010001 /* BLESense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99010001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					55010001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 66010002 /* Build configuration list for PBXProject "BLESense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44010001;
+			productRefGroup = 00010002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55010001 /* BLESense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88010001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11010033 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77010001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11010001 /* BLESenseApp.swift in Sources */,
+				11010002 /* BleSenseTheme.swift in Sources */,
+				11010003 /* DataExtensions.swift in Sources */,
+				11010004 /* CSVExporter.swift in Sources */,
+				11010005 /* SensorData.swift in Sources */,
+				11010006 /* BluetoothDeviceModel.swift in Sources */,
+				11010007 /* DataLoggerConfig.swift in Sources */,
+				11010008 /* StepCounter.swift in Sources */,
+				11010009 /* BleDeviceHandler.swift in Sources */,
+				11010010 /* SensorHubHandler.swift in Sources */,
+				11010011 /* AwsSensorHandler.swift in Sources */,
+				11010012 /* DataLoggerHandler.swift in Sources */,
+				11010013 /* StepCounterHandler.swift in Sources */,
+				11010014 /* RawScanHandler.swift in Sources */,
+				11010015 /* BLECentralManager.swift in Sources */,
+				11010016 /* BLEPeripheralManager.swift in Sources */,
+				11010017 /* RobotConnectionManager.swift in Sources */,
+				11010018 /* CloudSyncService.swift in Sources */,
+				11010019 /* HeaderBar.swift in Sources */,
+				11010020 /* MetricCards.swift in Sources */,
+				11010021 /* CustomTabBar.swift in Sources */,
+				11010022 /* MainDashboardView.swift in Sources */,
+				11010023 /* SensorHubView.swift in Sources */,
+				11010024 /* SensorDetailView.swift in Sources */,
+				11010025 /* StepCounterView.swift in Sources */,
+				11010026 /* DataLoggerListView.swift in Sources */,
+				11010027 /* DataLoggerControlView.swift in Sources */,
+				11010028 /* AWSScannerView.swift in Sources */,
+				11010029 /* RobotControlView.swift in Sources */,
+				11010030 /* RawScannerView.swift in Sources */,
+				11010031 /* HeroGameView.swift in Sources */,
+				11010032 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA010001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BLESense/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blesense.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA010002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BLESense/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blesense.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA010003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA010004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66010001 /* Build configuration list for PBXNativeTarget "BLESense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA010001 /* Debug */,
+				AA010002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66010002 /* Build configuration list for PBXProject "BLESense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA010003 /* Debug */,
+				AA010004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 99010001 /* Project object */;
+}

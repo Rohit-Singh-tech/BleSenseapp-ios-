@@ -1,0 +1,22 @@
+# Xcode
+## User settings
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+
+## Build generated
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.spotlight-pcs
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
