@@ -27,8 +27,9 @@ xcodebuild archive \
   -configuration "${CONFIGURATION}" \
   -archivePath "${ARCHIVE_PATH}" \
   -destination "generic/platform=iOS" \
-  CODE_SIGNING_ALLOWED=NO \
-  CODE_SIGNING_REQUIRED=NO
+  CODE_SIGN_IDENTITY="" \
+  CODE_SIGNING_REQUIRED=NO \
+  CODE_SIGNING_ALLOWED=NO
 
 echo "📦 Step 2: Packaging Payload into .ipa..."
 mkdir -p "${BUILD_DIR}/Payload"
@@ -41,4 +42,4 @@ cd ..
 cp "${BUILD_DIR}/${PROJECT_NAME}.ipa" "./${PROJECT_NAME}.ipa"
 
 echo "✅ SUCCESS! Generated: ./${PROJECT_NAME}.ipa"
-echo "Ready for App Store Connect, TestFlight, or Ad-Hoc distribution!"
+echo "Ready for Sideloadly, AltStore, TestFlight, or Ad-Hoc distribution!"
