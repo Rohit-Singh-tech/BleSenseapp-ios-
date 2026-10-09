@@ -8,6 +8,8 @@ on:
 jobs:
   build-ipa:
     runs-on: macos-14
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -34,3 +36,13 @@ jobs:
           name: BLESense-iOS-IPA
           path: ./BLESense.ipa
           if-no-files-found: error
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.0
+          name: "BLESense iOS v1.0.0 (Compiled IPA)"
+          body: "Direct compiled iOS ARM64 Application Archive ready for Sideloadly / AltStore / TestFlight."
+          files: ./BLESense.ipa
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
